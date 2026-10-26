@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jerardo Miguel Bangkas - Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Mobile Header Bar -->
+    <div class="mobile-header">
+        <div class="mobile-logo">JM</div>
+        <button class="hamburger-btn" id="mobile-menu-btn" aria-label="Toggle Navigation">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </div>
+
+    <!-- Theme Color Picker Panel -->
+    <div class="theme-picker" id="theme-picker">
+        <button class="theme-toggle-btn" id="theme-picker-btn" title="Change Accent Color">
+            <i class="fa-solid fa-palette"></i>
+        </button>
+        <div class="theme-options">
+            <span class="theme-option active" data-color="#2563eb" style="background-color: #2563eb;"
+                title="Royal Blue"></span>
+            <span class="theme-option" data-color="#059669" style="background-color: #059669;"
+                title="Emerald Green"></span>
+            <span class="theme-option" data-color="#7c3aed" style="background-color: #7c3aed;"
+                title="Electric Violet"></span>
+            <span class="theme-option" data-color="#0891b2" style="background-color: #0891b2;" title="Deep Teal"></span>
+            <span class="theme-option" data-color="#e11d48" style="background-color: #e11d48;" title="Coral Red"></span>
+        </div>
+    </div>
+
+    <!-- Main Sidebar -->
+    <aside class="sidebar" id="sidebar">
+
+        <nav class="sidebar-nav">
+            <ul>
+                <li><a href="#home" class="nav-link active">HOME</a></li>
+                <li><a href="#about" class="nav-link">ABOUT ME</a></li>
+                <li><a href="#resume" class="nav-link">RESUME</a></li>
+                <li><a href="#portfolio" class="nav-link">PORTFOLIO</a></li>
+                <li><a href="#contact" class="nav-link">CONTACT</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <!-- Main Wrapper -->
+    <main class="main-content">
+
+        <!-- 1. HOME / HERO SECTION -->
+        <section id="home" class="section hero-section">
+            <div class="hero-container">
+                <div class="hero-text-content">
+                    <h2 class="sub-greeting">HI THERE!</h2>
+                    <h1 class="hero-title">I'M <span class="highlight-text">JM</span></h1>
+                    <div class="badge-role">Entry-Level Virtual Assistant | Data Entry, Canva & Graphic Design | IT
+                        Student</div>
+                    <p class="hero-description">
+                        As a dedicated IT student and continuous self-taught learner, I combine practical administrative
+                        experience with a strong drive for personal growth. Whether it's organizing data, building web
+                        structures, or designing digital visuals, I bring adaptability, technical curiosity, and a
+                        reliable work ethic to every project.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#about" class="btn btn-primary">MORE ABOUT ME</a>
+                        <a href="#contact" class="btn btn-outline">GET IN TOUCH</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrap">
+                    <img src="/img/BANGKAS Jerardo Miguel 1.jpg" alt="Jm">
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. ABOUT ME SECTION -->
+        <section id="about" class="section about-section">
+            <div class="section-header">
+                <h2 class="section-title">ABOUT ME</h2>
+            </div>
+
+            <div class="about-intro">
+                <h3>I'm <strong>Jerardo Miguel Bangkas</strong>, Entry-Level Virtual Assistant | Data Entry, Canva &
+                    Graphic Design | IT Student</h3>
+                <p>
+                    Motivated second-year IT student and self-driven learner offering dependable data support, web
+                    solutions, and graphic design. Constantly expanding my skill set through hands-on practice, I am
+                    eager to bring fresh energy and tech-savvy problem-solving to your team.    
+                </p>
+            </div>
+
+            <!-- What I Do Services Grid -->
+            <div class="services-wrapper">
+                <h3 class="subsection-title">What I Do?</h3>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fa-solid fa-database"></i></div>
+                        <h4>DATA & ADMIN SUPPORT</h4>
+                        <p>Accurate data entry, file organization, Google Workspace/MS Excel management, and
+                            administrative support to keep daily operations running smoothly.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                        <h4>WEB & TECH SOLUTIONS</h4>
+                        <p>Building structured web pages with modern HTML/CSS, basic database querying, and providing
+                            tech-savvy troubleshooting for digital tools.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fa-solid fa-paint-brush"></i></div>
+                        <h4>GRAPHIC DESIGN & VISUALS</h4>
+                        <p>Creating promotional graphics, social media posts, custom frames, and digital assets using
+                            Canva and Adobe Illustrator.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. RESUME SECTION -->
+        <section id="resume" class="section resume-section">
+            <div class="section-header">
+                <h2 class="section-title">RESUME</h2>
+            </div>
+
+            <div class="resume-grid">
+                <!-- Education Column -->
+                <div class="resume-column">
+                    <h3 class="column-title"><i class="fa-solid fa-graduation-cap"></i> EDUCATION</h3>
+
+                    <div class="resume-item">
+                        <span class="resume-year">2025 - Present</span> <!-- Dates / Years -->
+                        <h4 class="resume-role">BS Information Technology</h4> <!-- Degree or Job Title -->
+                        <span class="resume-place">St. Mary's College of Bansalan, Inc.</span>
+                        <!-- School or Company Name -->
+                        <p>Short description of your achievements or key coursework here.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resume-cta">
+                <a href="/Resume/Jerardo Miguel_Bangkas_Resume.pdf" class="btn btn-primary"><i
+                        class="fa-solid fa-download"></i> DOWNLOAD FULL CV</a>
+            </div>
+        </section>
+
+        <!-- 4. PORTFOLIO SECTION -->
+        <section id="portfolio" class="section portfolio-section">
+            <div class="section-header">
+                <h2 class="section-title">PORTFOLIO</h2>
+            </div>
+
+            <!-- Category Filter Buttons -->
+            <div class="filter-controls">
+                <button class="filter-btn active" data-filter="all">ALL</button>
+                <button class="filter-btn" data-filter="graphic-design">GRAPHIC DESIGN</button>
+                <button class="filter-btn" data-filter="web-design">WEB DESIGN</button>
+            </div>
+
+            <!-- Gallery Grid 
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="graphic-design">
+                    <img src="https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&w=600&q=80"
+                        alt="Brand Identity Design">
+                    <div class="item-overlay">
+                        <h4>Brand Guidelines</h4>
+                        <span>Graphic Design</span>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web-design">
+                    <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=600&q=80"
+                        alt="Modern Dashboard App">
+                    <div class="item-overlay">
+                        <h4>Dashboard Interface</h4>
+                        <span>Web Design</span>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="photography">
+                    <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=600&q=80"
+                        alt="Camera Gear Shoot">
+                    <div class="item-overlay">
+                        <h4>Product Shoot</h4>
+                        <span>Photography</span>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="graphic-design">
+                    <img src="https://images.unsplash.com/photo-1572044162444-ad60f128bdea?auto=format&fit=crop&w=600&q=80"
+                        alt="Poster Typography Design">
+                    <div class="item-overlay">
+                        <h4>Typography Series</h4>
+                        <span>Graphic Design</span>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web-design">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80"
+                        alt="Corporate Website">
+                    <div class="item-overlay">
+                        <h4>Corporate Web Portal</h4>
+                        <span>Web Design</span>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+
+        <!--CONTACT SECTION -->
+        <section id="contact" class="section contact-section">
+            <div class="section-header">
+                <h2 class="section-title">CONTACT</h2>
+            </div>
+
+            <p class="contact-subtext">Feel free to contact me!</p>
+
+            <form class="contact-form" id="contact-form" action="https://formspree.io/f/xeaaaqrk" method="POST">
+                <div class="form-row">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <input type="text" name="subject" placeholder="Subject">
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" id="submit-btn" class="btn btn-primary">SEND MESSAGE</button>
+            </form>
+
+            <div class="contact-info-panel">
+                <div class="info-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div>
+                        <h5>Email</h5>
+                        <p>Jmbangkas111206@gmail.com</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <div>
+                        <h5>Phone</h5>
+                        <p>+63 9975439414</p>
+                    </div>
+                </div>
+                <div class="thanks-badge">
+                    <span>THANKS FOR PATIENCE!</span>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2026 Jerardo Miguel Bangkas. All rights reserved.</p>
+        </footer>
+    </main>
+
+    <!-- Lightbox Modal Container -->
+    <div class="lightbox-modal" id="lightbox">
+        <span class="close-lightbox" id="close-lightbox">&times;</span>
+        <img class="lightbox-img" id="lightbox-img" src="" alt="Enlarged Portfolio Item">
+    </div>
+
+    <!-- Toast Alert Container -->
+    <div class="toast-container" id="toast">Message sent successfully!</div>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
